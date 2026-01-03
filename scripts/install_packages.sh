@@ -17,6 +17,7 @@ pacman -Syu --noconfirm \
     github-cli \
     jdk-openjdk \
     nodejs \
+    power-profiles-daemon \
     python \
     thunderbird \
     zsh
