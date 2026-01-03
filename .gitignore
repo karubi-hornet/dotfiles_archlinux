@@ -1,0 +1,12 @@
+# Temporary build files for AUR packages
+*.tar.zst
+pkg/
+src/
+
+# Cloned yay directory
+yay/
+
+# General
+*.swp
+*.swo
+*~
