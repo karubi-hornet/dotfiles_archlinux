@@ -17,10 +17,15 @@ pacman -Syu --noconfirm \
     github-cli \
     jdk-openjdk \
     nodejs \
+    noto-fonts-cjk \
+    npm \
     power-profiles-daemon \
     python \
     thunderbird \
-    zsh
+    wine \
+    winetricks \
+    zsh \
+    zenity
 
 echo "==> Enabling and starting Docker service..."
 sudo systemctl enable docker.service

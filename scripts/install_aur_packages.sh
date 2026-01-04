@@ -9,4 +9,9 @@ fi
 
 # Install packages from AUR
 # Using --noconfirm to avoid interactive prompts
-yay -S --noconfirm visual-studio-code-bin slack-desktop discord obsidian
+yay -S --noconfirm \
+    google-chrome \
+    discord \
+    slack-desktop \
+    obsidian \
+    visual-studio-code-bin \
