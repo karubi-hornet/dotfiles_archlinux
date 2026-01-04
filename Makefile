@@ -1,9 +1,9 @@
 # Makefile for Arch Linux setup
 
-.PHONY: all setup-locale install-packages setup-zsh install-aur-helper install-aur-packages setup-conky
+.PHONY: all setup-locale install-packages setup-zsh install-aur-helper install-aur-packages setup-conky setup-font
 
 # Default target
-all: setup-locale install-packages setup-zsh install-aur-helper install-aur-packages setup-conky
+all: setup-locale install-packages setup-zsh install-aur-helper install-aur-packages setup-conky setup-font
 
 # Setup locale and keyboard
 setup-locale:
@@ -34,3 +34,8 @@ install-aur-packages:
 setup-conky:
 	@echo "==> Setting up Conky..."
 	bash scripts/setup_conky.sh
+
+# Setup Font
+setup-font:
+	@echo "==> Setting up Font..."
+	sudo bash scripts/setup_font.sh

@@ -22,10 +22,11 @@ pacman -Syu --noconfirm \
     power-profiles-daemon \
     python \
     thunderbird \
+    ttf-jetbrains-mono \
     wine \
     winetricks \
-    zsh \
-    zenity
+    zenity \
+    zsh
 
 echo "==> Enabling and starting Docker service..."
 sudo systemctl enable docker.service
